@@ -42,6 +42,7 @@ namespace MWO_XMLReader
                         break;
                     default:
                         break;
+
                 }
             });
             light = light.OrderBy(x => x.Variant).ToList().OrderBy(y => y.Chassis).ToList();
